@@ -5,7 +5,7 @@ Plugin URI:
 Description: It can make your wordpress have a timeline widget.
 Author: Jeonghwan Kim
 Version: 1.0
-Author URI: https://www.facebook.com/jeonghwan.kim1
+Author URI: 
 */
 
 define( 'TIMELINE_PLUGIN_PATH', plugin_dir_url(__FILE__) );
@@ -26,7 +26,7 @@ class Timeline extends WP_Widget {
 		// 기본 입력값 
 		$defaults = array(
 			'title' => 'Timeline', 
-			'google_docs_url' => '',
+			'google_docs_url' => 'https://docs.google.com/spreadsheet/pub?key=0AuCeFgi5I63edGU1T0JMR0JPa2l5aWx3TzBJMGlYRHc&output=html',
 			'height' => '600'
 			);
 
